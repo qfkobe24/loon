@@ -12,7 +12,7 @@
 
 [Script]
 
-http-response ^https:\/\/i\.at\.qq\.com\/pay\/memberinfo requires-body=1,script-path=https://qfkobe24.github.io/loon/script/wxts.js
+http-response ^https:\/\/i\.at\.qq\.com\/pay\/memberinfo requires-body=1,script-path=https://raw.githubusercontent.com/qfkobe24/loon/main/script/wxts.js
 
 
 
