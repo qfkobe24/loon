@@ -9,7 +9,7 @@ hostname = i.at.qq.com,
 */
 
 let obj = JSON.parse($response.body);
-
+console.log(obj);
 obj = {
   ...obj,
   "isMember": 1,
