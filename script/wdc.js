@@ -18,4 +18,6 @@ obj = {
   }
  };
 
-$done({body: JSON.stringify(obj)});
+$done({response: {
+  body: JSON.stringify(obj)
+}});
